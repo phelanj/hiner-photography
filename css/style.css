@@ -473,13 +473,25 @@ input [type=checkbox]: before {
 @media only screen and (max-device-width:600px){
        /* styles for mobile browsers smaller than 480px; (iPhone) */
 	   .menu-button-label {
-		   top: 65px;
+		   top: 70px;
 	   }
 	   .menu-button-label .white-bar {
 	position: absolute;
 	height: 5px;
 	width:100%;
 	   }
+	   .menu-button-label .white-bar:nth-child(1) {
+	top: 10%;
+}
+
+.menu-button-label .white-bar:nth-child(2),
+.menu-button-label .white-bar:nth-child(3) {
+	top: 47%;
+}
+
+.menu-button-label .white-bar:nth-child(4) {
+	top: 85%;
+}
 	   .fixed-nav-bar .logo {
 	position: absolute;
 	top: 50%;
@@ -495,7 +507,7 @@ input [type=checkbox]: before {
 	top: 0;
 	left: 0;
 	right: 0;
-	min-height: 140px;
+	min-height: 160px;
 	padding: 0 25px;
 	box-sizing: border-box;
 	background-color: rgba(255,255,255,0.02);
@@ -505,7 +517,7 @@ input [type=checkbox]: before {
 	transition: 0.35s ease;
 	}
 	.fixed-nav-bar.scrolled {
-	min-height: 140px;
+	min-height: 160px;
 	background-color: #fdfdfd;
 	box-shadow: 0 0 30px 3px rgba(0,0,0,0.6);
 	}
