@@ -238,7 +238,7 @@ input [type=checkbox]: before {
 }
 .imgWrap{
 	position:relative;
-	 height: 294px;
+	 height: 100%;
   width: 100%;
 }
 .imgText{
@@ -477,7 +477,8 @@ input [type=checkbox]: before {
 	   }
 	   .menu-button-label .white-bar {
 	position: absolute;
-	height: 4px;
+	height: 5px;
+	width:100%;
 	   }
 	   .fixed-nav-bar .logo {
 	position: absolute;
