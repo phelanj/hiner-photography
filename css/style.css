@@ -474,23 +474,24 @@ input [type=checkbox]: before {
        /* styles for mobile browsers smaller than 480px; (iPhone) */
 	   .menu-button-label {
 		   top: 70px;
-	   }
+		   left: 86%;
+		}
 	   .menu-button-label .white-bar {
 	position: absolute;
 	height: 5px;
-	width:100%;
+	width:70px;
 	   }
 	   .menu-button-label .white-bar:nth-child(1) {
-	top: 10%;
+	top: 0%;
 }
 
 .menu-button-label .white-bar:nth-child(2),
 .menu-button-label .white-bar:nth-child(3) {
-	top: 47%;
+	top: 50%;
 }
 
 .menu-button-label .white-bar:nth-child(4) {
-	top: 85%;
+	top: 100%;
 }
 	   .fixed-nav-bar .logo {
 	position: absolute;
