@@ -496,12 +496,17 @@ input [type=checkbox]: before {
 	   .fixed-nav-bar .logo {
 	position: absolute;
 	top: 50%;
-	right: 30%;
+	right: 20%;
+	font-size: 38px;
 	}
+
+.fixed-nav-bar .logo span {
+		font-size: 38px;
+}
 	   .fixed-nav-bar.scrolled .logo {
 	color: #000;
-	right:50%;
-	transform: translate(-6%, -50%);
+	right:37%;
+	transform: translate(-1%, -50%);
 	}
 	.fixed-nav-bar {
 	position: fixed;
