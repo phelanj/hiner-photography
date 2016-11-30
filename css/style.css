@@ -495,7 +495,7 @@ input [type=checkbox]: before {
 }
 	   .fixed-nav-bar .logo {
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	right: 20%;
 	font-size: 38px;
 	}
