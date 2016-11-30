@@ -166,7 +166,7 @@ input [type=checkbox]: before {
 	height: 48px;
 	width: 48px;
 	/* top: 50%; */
-	top: 30px;
+	top: 35px;
 	left: 90%;
 	/* right: 60px; */
 	transform: translateY(-50%);
@@ -472,6 +472,9 @@ input [type=checkbox]: before {
 
 @media only screen and (max-device-width:600px){
        /* styles for mobile browsers smaller than 480px; (iPhone) */
+	   .menu-button-label {
+		   top: 65px;
+	   }
 	   .fixed-nav-bar .logo {
 	position: absolute;
 	top: 50%;
@@ -487,7 +490,7 @@ input [type=checkbox]: before {
 	top: 0;
 	left: 0;
 	right: 0;
-	min-height: 100px;
+	min-height: 140px;
 	padding: 0 25px;
 	box-sizing: border-box;
 	background-color: rgba(255,255,255,0.02);
@@ -497,7 +500,7 @@ input [type=checkbox]: before {
 	transition: 0.35s ease;
 	}
 	.fixed-nav-bar.scrolled {
-	min-height: 100px;
+	min-height: 140px;
 	background-color: #fdfdfd;
 	box-shadow: 0 0 30px 3px rgba(0,0,0,0.6);
 	}
