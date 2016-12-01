@@ -557,7 +557,7 @@ width: 100%;
 
 @media screen and (max-device-width: 500px) {
 	   .fixed-nav-bar.scrolled .logo {
-	right:40%;
+	right:42%;
 	top:64%;
 	transform: translate(-30%, -50%);
 	}
