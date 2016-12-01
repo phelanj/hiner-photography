@@ -477,9 +477,9 @@ width: 100%;
 
 @media only screen and (max-device-width:600px){
 	.header{
-    background: url('background1.jpg') top center fixed;
+    background: url('background2-mob.JPG') top center fixed;
     background-size: cover;
-    min-height: 600px;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     color: white;
