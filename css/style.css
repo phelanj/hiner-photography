@@ -476,6 +476,9 @@ width: 100%;
 }
 
 @media only screen and (max-device-width:600px){
+	.header{
+    	min-height: 600px;
+	}
 	.mobile-br {
 		display:block;
 	}
