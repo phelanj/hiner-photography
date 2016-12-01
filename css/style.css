@@ -476,10 +476,6 @@ width: 100%;
 }
 
 @media only screen and (max-device-width:600px){
-	.header {
-		    background: url('background2-mob.JPG') top center fixed;
-			background-size:cover;
-	}
 	.mobile-br {
 		display:block;
 	}
