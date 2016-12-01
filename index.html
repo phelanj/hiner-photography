@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/normalize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="stylesheet" href="css/skeleton.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
@@ -9,7 +12,7 @@
 
 
 <div class="fixed-nav-bar">
-    <div class="logo"><!-- <img src="EH.png"></img> --><span>Eric Hiner</span> Photography</div>
+    <div class="logo"><span>Eric Hiner</span><br class="mobile-br"> Photography</div>
     <input type="checkbox" id="menuButton" />
     <label for="menuButton" class="menu-button-label">
         <div class="white-bar"></div>
@@ -39,7 +42,7 @@
         <div class="drop-down-item"></div>
     </div>
 </div>
- <div class="header"></div>
+ <div class="header"><br>HEDAER</div>
 <div class="rela-block deer-section">
 <div class="container">
 
@@ -47,13 +50,14 @@
   <!-- there are a few shorthand columns widths as well -->
   <div class="row">
   <div class ="hover10">
-    <div class="one-third column"><a href="#"><div class ="imgWrap"><img class="u-max-full-width" src="nature.jpg"></img><span class ="imgText">Nature</span></div></a></div>
+    <div class="one-half column"><a href="#"><div class ="imgWrap"><img class="u-max-full-width gallery" src="nature.jpg"></img><span class ="imgText">Nature</span></div></a></div>
 	</div>
 	<div class ="hover10">
-    <div class="one-third column"><a href="#"><div class ="imgWrap"><img class="u-max-full-width" src="constr.jpg"></img><span class ="imgText">Construction</span></div></a></div>
+    <div class="one-half column"><a href="#"><div class ="imgWrap"><img class="u-max-full-width gallery" src="constr.jpg"></img><span class ="imgText">Construction</span></div></a></div>
 	</div>
-	<div class="one-third column">3/3</div>
   </div>
+  
+  
 
 </div>
    
@@ -67,7 +71,18 @@
     <p class="absolute-center-text">Look at that concept art!<br><br>Dope stuff!</p>
 </div> -->
 <div class="rela-block fourth-section">
-    
+     <div class="container">
+      <h3 class="section-heading">Responsive Images</h3>
+      <p class="section-description">Skeleton images sit easily in grid with .u-max-full-width class. I suggest exploring solution to serving different images based on device size.</p>
+      <div class="row">
+        <div class="one-half column category">
+          <img class="u-max-full-width" src="images/placeholder.png">
+        </div>
+        <div class="one-half column category">
+          <img class="u-max-full-width" src="images/placeholder.png">
+        </div>
+      </div>
+</div>
 </div>
 <div class="rela-block footer">
     <div class="rela-block social-buttons-container">
