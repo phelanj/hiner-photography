@@ -559,7 +559,6 @@ width: 100%;
 	   .fixed-nav-bar.scrolled .logo {
 	right:42%;
 	top:64%;
-	transform: translate(-30%, -50%);
 	}
 	.social-buttons-container {
 		max-width: 200px;
