@@ -14,10 +14,6 @@ body {
 	font-family: "Raleway";
 	font-weight: 400;
 }
-input [type=checkbox]: before {
-	border: 15px !important;
-	height: 50px;
-}
 .mobile-br {
 	display:none;
 }
@@ -39,9 +35,9 @@ input [type=checkbox]: before {
 
 .fixed-nav-bar .logo {
 	position: absolute;
-	top: 50%;
+	/*top: 50%;
 	right: 35%;
-	transform: translateY(-50%);
+	transform: translateY(-50%);*/
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 28px;
