@@ -557,7 +557,7 @@ width: 100%;
 
 @media screen and (max-device-width: 500px) {
 	   .fixed-nav-bar.scrolled .logo {
-	right:42%;
+	right:34%;
 	top:64%;
 	}
 	.social-buttons-container {
