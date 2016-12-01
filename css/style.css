@@ -70,10 +70,10 @@ input [type=checkbox]: before {
 }
 
 .header{
-    background: url('background1.jpg') no-repeat top center fixed;
+    background: url('background2.JPG') top center fixed;
     background-size: cover;
     min-height: 100vh;
-    width: 100%;
+    /* width: 100%; */
     margin: 0;
     padding: 0;
     color: white;
@@ -471,6 +471,17 @@ input [type=checkbox]: before {
 }
 
 @media only screen and (max-device-width:600px){
+		.header {
+			background: url('background2-mob.JPG') top center fixed;
+			    background-size: cover;
+    min-height: 100vh;
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+		}
        /* styles for mobile browsers smaller than 600px; (iPhone) */
 	   .menu-button-label {
 		   top: 70px;
@@ -530,10 +541,10 @@ input [type=checkbox]: before {
 		height: 16%;
 	}
 	.the-bass{
-		top: 100px;
+		top: 160px;
 	}
 	.the-bass.dropped {
-		height: 50vh; 	/* HEIGHT OF MENU */ 
+		height: 60vh; 	/* HEIGHT OF MENU */ 
 		padding: 5px 0px px;
 	}
 	
