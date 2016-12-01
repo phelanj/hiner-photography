@@ -477,8 +477,14 @@ width: 100%;
 
 @media only screen and (max-device-width:600px){
 	.header{
-    	min-height: 600px;
-	}
+    background-size: cover;
+    min-height: 600px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
 	.mobile-br {
 		display:block;
 	}
