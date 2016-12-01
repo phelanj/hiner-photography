@@ -485,7 +485,7 @@ width: 100%;
 	}
        /* styles for mobile browsers smaller than 600px; (iPhone) */
 	   .menu-button-label {
-		   top: 40px;
+		   top: 27px;
 		   left: 76%;
 		}
 	   .menu-button-label .white-bar {
@@ -499,11 +499,11 @@ width: 100%;
 
 .menu-button-label .white-bar:nth-child(2),
 .menu-button-label .white-bar:nth-child(3) {
-	top: 60%;
+	top: 50%;
 }
 
 .menu-button-label .white-bar:nth-child(4) {
-	top: 100%;
+	top: 80%;
 }
 	   .fixed-nav-bar .logo {
 	position: absolute;
@@ -528,7 +528,7 @@ width: 100%;
 	top: 0;
 	left: 0;
 	right: 0;
-	min-height: 100px;
+	min-height: 60px;
 	padding: 0 25px;
 	box-sizing: border-box;
 	background-color: rgba(255,255,255,0.02);
@@ -538,7 +538,7 @@ width: 100%;
 	transition: 0.35s ease;
 	}
 	.fixed-nav-bar.scrolled {
-	min-height: 100px;
+	min-height: 60px;
 	background-color: #fdfdfd;
 	box-shadow: 0 0 30px 3px rgba(0,0,0,0.6);
 	}
@@ -546,7 +546,7 @@ width: 100%;
 		height: 16%;
 	}
 	.the-bass{
-		top: 100px;
+		top: 60px;
 	}
 	.the-bass.dropped {
 		height: 60vh; 	/* HEIGHT OF MENU */ 
@@ -555,7 +555,12 @@ width: 100%;
 	
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-device-width: 500px) {
+	   .fixed-nav-bar.scrolled .logo {
+	right:35%;
+	top:64%;
+	transform: translate(-50%, -50%);
+	}
 	.social-buttons-container {
 		max-width: 200px;
 	}
