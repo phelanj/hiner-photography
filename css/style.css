@@ -504,7 +504,7 @@ input [type=checkbox]: before {
 		font-size: 50px;
 }
 	   .fixed-nav-bar.scrolled .logo {
-	right:25%;
+	right:20%;
 	transform: translate(0%, -50%);
 	}
 	.fixed-nav-bar {
