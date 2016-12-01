@@ -57,7 +57,7 @@ input [type=checkbox]: before {
 	box-shadow: 0 0 30px 3px rgba(0,0,0,0.6);
 }
 	.fixed-nav-bar.scrolled .logo {
-	color: #000;
+	color: #FFF;
 	right:55%;
 	transform: translate(-30%, -50%);
 }
@@ -471,7 +471,7 @@ input [type=checkbox]: before {
 }
 
 @media only screen and (max-device-width:600px){
-       /* styles for mobile browsers smaller than 480px; (iPhone) */
+       /* styles for mobile browsers smaller than 600px; (iPhone) */
 	   .menu-button-label {
 		   top: 70px;
 		   left: 86%;
@@ -497,16 +497,15 @@ input [type=checkbox]: before {
 	position: absolute;
 	top: 45%;
 	right: 20%;
-	font-size: 38px;
+	font-size: 50px;
 	}
 
 .fixed-nav-bar .logo span {
-		font-size: 38px;
+		font-size: 50px;
 }
 	   .fixed-nav-bar.scrolled .logo {
-	color: #000;
-	right:37%;
-	transform: translate(-1%, -50%);
+	right:25%;
+	transform: translate(0%, -50%);
 	}
 	.fixed-nav-bar {
 	position: fixed;
