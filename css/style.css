@@ -70,7 +70,7 @@ input [type=checkbox]: before {
 }
 
 .header{
-    background: url('background2.JPG') top center fixed;
+    background: url('background2-mob.JPG') top center fixed;
     background-size: cover;
     min-height: 100vh;
     /* width: 100%; */
@@ -471,16 +471,7 @@ input [type=checkbox]: before {
 }
 
 @media only screen and (max-device-width:600px){
-		.header {
-			background: url('background2-mob.JPG') top center fixed;
-    min-height: 100vh;
-    /* width: 100%; */
-    margin: 0;
-    padding: 0;
-    color: white;
-    text-align: center;
-    font-size: 50px;
-		}
+	
        /* styles for mobile browsers smaller than 600px; (iPhone) */
 	   .menu-button-label {
 		   top: 70px;
