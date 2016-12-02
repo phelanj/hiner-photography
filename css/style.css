@@ -195,6 +195,7 @@ body {
 
 .menu-button-label .white-bar:nth-child(2),
 .menu-button-label .white-bar:nth-child(3) {
+	height: 1.5px;
 	top: 47%;
 }
 
@@ -235,7 +236,7 @@ body {
 }
 
 .gallery-section {
-	height: 100vh;
+	height: 150vh;
 	/* background-size: 424px 600px; */
 	background-color: #1a1a1a;
 	box-shadow: 0 5px 20px 2px rgba(0,0,0,0.7);
