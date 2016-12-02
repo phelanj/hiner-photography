@@ -234,7 +234,7 @@ body {
 	right: 0;
 }
 
-.deer-section {
+.gallery-section {
 	height: 100vh;
 	/* background-size: 424px 600px; */
 	background-color: #1a1a1a;
@@ -561,6 +561,9 @@ width: 98%;
 	}
 	.gallery{ 
 width: 100%;
+}
+.gallery-section {
+	height: 200vh;
 }
 	
 }
