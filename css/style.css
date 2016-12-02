@@ -17,11 +17,15 @@ body {
 .mobile-br {
 	display:none;
 }
+.mobile-hdr {
+	display:none;
+}
 .buy-btn{
-	display:block;
-        position:fixed;
-        top:70%;
-        left:45%;
+	/* display:flex; */
+     /* align-items: center; */
+	 /* right:40%; */
+	 	/* position:absolute; */
+
 		z-index: 1;
         /* width:100%; */
 }
@@ -76,7 +80,7 @@ body {
 	background-color: #000;
 }
 
-.header{
+.header1{
     background: url('background2.JPG') top center fixed;
     background-size: cover;
     min-height: 100vh;
@@ -486,22 +490,19 @@ width: 98%;
 }
 
 @media only screen and (max-device-width:600px){
-	.header{
-    background: url('background2-mob.JPG') top center fixed;
-    background-size: cover;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    color: white;
-    text-align: center;
-    font-size: 50px;
-}
+/* 	.header{
+   
+} */
 .buy-btn{
         top:75%;
         left:29%;
         /* width:100%; */
 }
 	.mobile-br {
+		display:block;
+		position:fixed;
+	}
+	.mobile-hdr{
 		display:block;
 	}
        /* styles for mobile browsers smaller than 600px; (iPhone) */
