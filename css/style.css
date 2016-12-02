@@ -81,7 +81,7 @@ body {
 }
 
 .header1{
-    background: url('background2.JPG') top center fixed;
+    background: url('images/background2.JPG') top center fixed;
     background-size: cover;
     min-height: 100vh;
     margin: 0;
