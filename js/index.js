@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    var distance = $('.deer-section').offset().top,
+    var distance = $('.gallery-section').offset().top,
     $window = $(window);
 
 $window.scroll(function() {
