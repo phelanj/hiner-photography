@@ -7,6 +7,7 @@
 	  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	  	  <link href="css/constr.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="stylesheet" href="css/skeleton.css">
+	<link href="css/lightbox.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
@@ -64,15 +65,15 @@
 <div class="container">
   <!-- there are a few shorthand columns widths as well -->
  <div class = "full-gallery">
-<div><img src="resized/DSC_3719.jpg" alt></div>
-<div><img src="resized/DSC_3726.jpg" alt></div>
-<div><img src="resized/DSC_4637.jpg" alt></div>
-<div><img src="resized/DSC_4683.jpg" alt></div>
-<div><img src="resized/DSC_5978.jpg" alt></div>
-<div><img src="resized/DSC_6017.jpg" alt></div>
-<div><img src="resized/DSC_6032.jpg" alt></div>
-<div><img src="resized/DSC_6439.jpg" alt></div>
-<div><img src="resized/DSC_6299.jpg" alt></div>
+<div><a href="resized/DSC_3719.jpg" data-lightbox="constr" data-title="<a class='button button-primary buy-btn' href='/'>Buy Prints</a>"><img src="resized/DSC_3719.jpg" ></a></div>
+<div><a href="resized/DSC_3726.jpg" data-lightbox="constr" data-title="<a class='button button-primary buy-btn' href='/'>Buy Prints</a>"><img src="resized/DSC_3726.jpg" ></a></div>
+<div><img src="resized/DSC_4637.jpg" ></div>
+<div><img src="resized/DSC_4683.jpg" ></div>
+<div><img src="resized/DSC_5978.jpg" ></div>
+<div><img src="resized/DSC_6017.jpg" ></div>
+<div><img src="resized/DSC_6032.jpg" ></div>
+<div><img src="resized/DSC_6439.jpg" ></div>
+<div><img src="resized/DSC_6299.jpg" ></div>
 
   <!-- images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images -->
 </div>
@@ -146,7 +147,15 @@
 	  document.getElementById("menuButton").checked = false;
 	  $('.the-bass').removeClass('dropped')
   }  </script>
+  <script>
+    lightbox.option({
+    'alwaysShowNavOnTouchDevices': true,
+	'showImageNumberLabel': true
+    })
+</script>
   <script src="js/index.js"></script>
+  <script src="js/lightbox.js"></script>
+
     <!-- <script src="js/materialize.js"></script> -->
 
 </body>
