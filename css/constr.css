@@ -1,0 +1,13 @@
+.constr-hdr{
+    background: url('DSC_4683.JPG') top center fixed;
+    background-size: cover;
+    min-height: 90vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+span {
+	color: #E78533 !important;
+}

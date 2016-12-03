@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/normalize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	  	  <link href="css/constr.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="css/skeleton.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<div class="fixed-nav-bar">
+    <div class="logo" href="index.html">
+		    <a href="index.html"><span>Eric Hiner</span><br class="mobile-br"> Construction</a>
+	</div>
+    <input type="checkbox" id="menuButton" />
+    <label for="menuButton" class="menu-button-label">
+        <div class="white-bar"></div>
+        <div class="white-bar"></div>
+        <div class="white-bar"></div>
+        <div class="white-bar"></div>
+    </label>
+</div>
+<div class="the-bass" id="the-bass">
+    <div class="rela-block drop-down-container">
+        <div class="drop-down-item">
+        <a id="galleries-btn" onclick="hideMenu()">Galleries</a></div>
+    </div>
+    <div class="rela-block drop-down-container">
+        <div class="drop-down-item"></div>
+    </div>
+    <div class="rela-block drop-down-container">
+        <div class="drop-down-item"></div>
+    </div>
+    <div class="rela-block drop-down-container">
+        <div class="drop-down-item"></div>
+    </div>
+    <div class="rela-block drop-down-container">
+        <div class="drop-down-item"></div>
+    </div>
+    <div class="rela-block drop-down-container">
+        <div class="drop-down-item"></div>
+    </div>
+</div>
+ <div class="constr-hdr">
+ <br><br><br><br><br><br>
+ <!-- <div class="one-fourth column">s</div> -->
+ 	<!-- <img src="background2-mob.JPG" class="mobile-hdr"></img> -->
+
+   <div class="container">
+   <div class="row">
+    <div class="two-half column">
+	
+	<a class="button button-primary buy-btn" href="/">Buy Prints</a>
+    </div>
+   </div>
+  </div>
+<!-- <div class="one-third column">s</div> -->
+</div>
+<div class="rela-block gallery-section" id="galleries">
+<div class="container">
+  <!-- there are a few shorthand columns widths as well -->
+ <div class = "full-gallery">
+<div><img src="resized/DSC_3719.jpg" alt></div>
+<div><img src="resized/DSC_3726.jpg" alt></div>
+<div><img src="resized/DSC_4637.jpg" alt></div>
+<div><img src="resized/DSC_4683.jpg" alt></div>
+<div><img src="resized/DSC_5978.jpg" alt></div>
+<div><img src="resized/DSC_6017.jpg" alt></div>
+<div><img src="resized/DSC_6032.jpg" alt></div>
+<div><img src="resized/DSC_6439.jpg" alt></div>
+<div><img src="resized/DSC_6299.jpg" alt></div>
+
+  <!-- images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images -->
+</div>
+  
+
+</div>
+   
+</div>
+<!-- <div class="rela-block second-section cover-before">
+    <div class="big-floaty-image">
+        <p class="absolute-center-text">THE SKY!</p>
+    </div>
+</div>
+<div class="rela-block third-section cover-before" id = "home">
+    <p class="absolute-center-text">Look at that concept art!<br><br>Dope stuff!</p>
+</div> -->
+<!-- <div class="rela-block fourth-section">
+     <div class="container">
+      <h3 class="section-heading">Responsive Images</h3>
+      <p class="section-description">Skeleton images sit easily in grid with .u-max-full-width class. I suggest exploring solution to serving different images based on device size.</p>
+      <div class="row">
+        <div class="one-half column category">
+          <img class="u-max-full-width" src="images/placeholder.png">
+        </div>
+        <div class="one-half column category">
+          <img class="u-max-full-width" src="images/placeholder.png">
+        </div>
+      </div>
+</div>
+</div> -->
+<div class="rela-block footer">
+    <div class="rela-block social-buttons-container">
+        <div class="social-button facebook-button"></div>
+        <div class="social-button insta-button"></div>
+        <div class="social-button twitter-button"></div>
+        <div class="social-button pinterest-button"></div>
+    </div>
+    <div class="rela-block footer-links-container">
+        <div class="footer-flex-column">
+            <ul> Projects
+                <li>Chillwave</li>
+                <li>Gluten-free</li>
+                <li>Kitsch Cardigan</li>
+            </ul>
+        </div>
+        <div class="footer-flex-column">
+            <ul> About us
+                <li>Fingerstache</li>
+                <li>Lumbersexual</li>
+                <li>Lo-Fi Aesthitic</li>
+            </ul>
+        </div>
+        <div class="footer-flex-column">
+            <ul> Community
+                <li>Kale Chips</li>
+                <li>Church Key</li>
+                <li>Longboarding</li>
+            </ul>
+        </div>
+        <div class="footer-flex-column">
+            <ul> Connect
+                <li>Pinterest</li>
+                <li>Etsy</li>
+                <li>Blog Swag</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>  function hideMenu() {
+	  <!-- alert("hide"); -->
+	  document.getElementById("menuButton").checked = false;
+	  $('.the-bass').removeClass('dropped')
+  }  </script>
+  <script src="js/index.js"></script>
+    <!-- <script src="js/materialize.js"></script> -->
+
+</body>
+</html>
