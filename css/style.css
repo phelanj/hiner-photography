@@ -18,6 +18,10 @@ a {
 	text-decoration: none;
 	color: #fff !important;
 }
+.desktop-br {
+		display:block;
+		position:fixed;
+	}
 .mobile-br {
 	display:none;
 }
@@ -32,7 +36,7 @@ a {
      /* align-items: center; */
 	 /* right:40%; */
 	 	/* position:absolute; */
-		top: 75%;
+		/* top: 75%; */
 		z-index: 1;
         /* width:100%; */
 }
@@ -526,13 +530,16 @@ width: 98%;
    
 } */
 .buy-btn{
-        top:75%;
-        left:29%;
+        /* top:75%; */
+        /* left:29%; */
         /* width:100%; */
 }
 	.mobile-br {
 		display:block;
 		position:fixed;
+	}
+	.desktop-br {
+		display:none;
 	}
 	.mobile-hdr{
 		display:block;
