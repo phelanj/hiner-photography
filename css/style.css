@@ -287,6 +287,9 @@ a {
 	 height: 100%;
   width: 100%;
 }
+.tag{
+	display:none;
+}
 .gallery{ 
 width: 98%;
 }
@@ -606,6 +609,18 @@ width: 98%;
 		height: 60vh; 	/* HEIGHT OF MENU */ 
 		padding: 5px 0px px;
 	}
+.tag {
+	display:block;
+   float: left;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   z-index: 1000;
+   background-color: rgba(231, 133, 51, 0.8) ;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+}
 	.gallery{ 
 width: 100%;
 }
