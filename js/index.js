@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function() {
     var distance = $('.gallery-section').offset().top,
     $window = $(window);
 
